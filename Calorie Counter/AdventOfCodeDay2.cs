@@ -2,7 +2,7 @@
 {
     public class AdventOfCodeDay2
     {
-        public void RPSChampionship()
+        public static void RPSChampionship()
         {
             string rockPaperScissors = "B Z\r\nA Z\r\nB Z\r\nC Z\r\nC Z\r\nB X\r\nA X\r\nC X\r\nA Z\r\nC Y\r\nC X\r\nC Y\r\nC Y\r\nA X\r\nA Z\r\nA Z\r\nA X\r\nB Z\r\nB X\r\nA Z\r\nA X\r\nC Y\r\nA X\r\nB Z\r\nB Z\r\nA X\r\nC Z\r\nA Z\r\nA X\r\nB Z\r\n" +
                     "A Z\r\nA Y\r\nC Y\r\nA Z\r\nC Z\r\nA Z\r\nC Y\r\nC Z\r\nC Z\r\nA Z\r\nA X\r\nA X\r\nB X\r\nA Z\r\nB Z\r\nA X\r\nA Z\r\nA Z\r\nA X\r\nA X\r\nC Y\r\nA Z\r\nB X\r\nC Y\r\nA X\r\nB Y\r\nA Z\r\nA X\r\nA Z\r\nA X\r\nC Z\r\nA Z\r\nA Y\r\nA X" +
@@ -186,10 +186,10 @@
                             break;
                     }
                     totalPoints += (roundOutcome+shapeSelected);*/
-                }
-                Console.WriteLine($"You scored {totalPoints} total points in the championship!");
-                Console.ReadKey();
+                }                
             }
+            Console.WriteLine($"You scored {totalPoints} total points in the championship!");
+            Console.ReadKey();
         }
     }
 }

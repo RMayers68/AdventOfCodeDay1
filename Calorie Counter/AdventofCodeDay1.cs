@@ -2,7 +2,7 @@
 {
     public class AdventOfCodeDay1
     {
-        public void CalorieCounter()
+        public static void CalorieCounter()
         {
             string calorieCounter = "17034\n\n13495\n7368\n13905\n\n68034\n\n7796\n10348\n5088\n8836\n\n15061\n1842\n7047\n\n2477\n6629\n7998\n4235\n6505\n2875\n6059\n9423\n5315\n\n4054\n6388\n5278\n4163\n10438\n10821\n2650\n\n6424\n2420\n10363\n4275\n1876\n" +
         "6357\n6364\n\n5123\n1271\n3991\n2792\n2513\n4890\n2900\n7820\n6020\n4612\n3109\n\n9072\n18898\n13848\n11609\n\n1793\n1434\n2288\n4573\n5087\n7366\n3233\n3052\n5754\n1418\n6255\n\n5372\n2497\n2289\n6782\n4154\n5081\n5984\n3164\n4111\n2951\n" +

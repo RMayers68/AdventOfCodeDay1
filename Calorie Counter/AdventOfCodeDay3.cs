@@ -3,7 +3,7 @@
     public class AdventOfCodeDay3
     {
 
-        public void RucksackSorting()
+        public static void RucksackSorting()
         {
             string collection = "BzRmmzZHzVBzgVQmZLPtqqffPqWqJmPLlL\r\nhpvvTDcrCjhpcrvcGGhfLHMlLtMCqflNlWPJlJ\r\nhGjhncHhGnhbTHczBBZVVSbRwgSgRV\r\nrWVQjPQQjGRWNSrWrPjcptwBpqqJBtJBBcZgMdtq\r\nzzmmpzfTCFpTlMlJJwBgMlqMBt\r\nTvLszpbhhTLmsnRQPDQGWDWRvQSR" +
                 "\r\nzGzvLlGlQHLGBQZlhBWhdjRdmdWRcjPj\r\nfTJNfTfNSRWPhjdjfj\r\npbsbVVnpSnbVTprnbqqrzvLLgQlGLPLHll\r\nZCCCsWvNvmsCsCmZLZmgMLRpQMhwQRpQRfphfprpTfpM\r\ntlncPjzlndctbzcPPBcjwDphwrfGGDffbDRpDTGG\r\ncdqnddwzqjNVWVLZZLZq\r\n" +
