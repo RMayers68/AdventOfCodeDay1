@@ -90,7 +90,8 @@
                     thirdElf = totalCalories;
 
             }
-            Console.WriteLine($"The highest calories is {firstElf + secondElf + thirdElf}.");
+            Console.WriteLine($"The elf with the most calories has {firstElf} calories.");
+            Console.WriteLine($"The highest calories combined is {firstElf + secondElf + thirdElf}.");
             Console.ReadKey();
         }
     }
