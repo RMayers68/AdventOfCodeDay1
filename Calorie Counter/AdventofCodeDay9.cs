@@ -125,8 +125,7 @@ namespace Calorie_Counter
                 uniqueVisited10++;
             Console.WriteLine($"The amount of unique visited points on a two point rope is {uniqueVisited2}.");
             Console.WriteLine($"The amount of unique visited points on a ten point rope is {uniqueVisited10}.");
-            Console.ReadKey();
-            
+            Console.ReadKey();            
         }
         public static Point TailMovement(Point head, Point tail)
         {
