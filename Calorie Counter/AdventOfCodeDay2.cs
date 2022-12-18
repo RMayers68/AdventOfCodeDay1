@@ -4,88 +4,10 @@
     {
         public static void RPSChampionship()
         {
-            string rockPaperScissors = "B Z\r\nA Z\r\nB Z\r\nC Z\r\nC Z\r\nB X\r\nA X\r\nC X\r\nA Z\r\nC Y\r\nC X\r\nC Y\r\nC Y\r\nA X\r\nA Z\r\nA Z\r\nA X\r\nB Z\r\nB X\r\nA Z\r\nA X\r\nC Y\r\nA X\r\nB Z\r\nB Z\r\nA X\r\nC Z\r\nA Z\r\nA X\r\nB Z\r\n" +
-                    "A Z\r\nA Y\r\nC Y\r\nA Z\r\nC Z\r\nA Z\r\nC Y\r\nC Z\r\nC Z\r\nA Z\r\nA X\r\nA X\r\nB X\r\nA Z\r\nB Z\r\nA X\r\nA Z\r\nA Z\r\nA X\r\nA X\r\nC Y\r\nA Z\r\nB X\r\nC Y\r\nA X\r\nB Y\r\nA Z\r\nA X\r\nA Z\r\nA X\r\nC Z\r\nA Z\r\nA Y\r\nA X" +
-                    "\r\nC Y\r\nA X\r\nB X\r\nA X\r\nA Z\r\nC Y\r\nA Z\r\nA X\r\nC X\r\nC Z\r\nC Z\r\nA Z\r\nA X\r\nA Z\r\nC X\r\nC Z\r\nB Z\r\nA Z\r\nC Y\r\nC Z\r\nB X\r\nA X\r\nA Z\r\nA X\r\nA X\r\nC Y\r\nA Z\r\nC Z\r\nB X\r\nA X\r\nA X\r\nA Z\r\nA Y" +
-                    "\r\nA X\r\nC X\r\nA Z\r\nB X\r\nC Y\r\nA X\r\nA X\r\nA X\r\nC X\r\nB Z\r\nB Z\r\nA Z\r\nA X\r\nA Z\r\nC Z\r\nC X\r\nC Y\r\nB X\r\nC Z\r\nA Z\r\nC X\r\nA Z\r\nA X\r\nA X\r\nA X\r\nA X\r\nA Z\r\nB X\r\nA X\r\nB X\r\nC Z\r\nA Z\r\nA Z" +
-                    "\r\nA X\r\nA X\r\nA X\r\nB X\r\nA Z\r\nA X\r\nA Z\r\nA X\r\nB Z\r\nA Z\r\nA X\r\nB Z\r\nA Z\r\nA Z\r\nC Y\r\nB Z\r\nA Z\r\nB Z\r\nA Z\r\nA X\r\nC X\r\nA X\r\nC Y\r\nC X\r\nA X\r\nA X\r\nC Y\r\nA Z\r\nA X\r\nB Z\r\nA Z\r\nA Z\r\nB X" +
-                    "\r\nB Z\r\nA X\r\nA Z\r\nA X\r\nA X\r\nA Z\r\nA X\r\nA Z\r\nA Z\r\nC X\r\nA Z\r\nA X\r\nC Y\r\nA Z\r\nA Z\r\nA X\r\nA X\r\nA X\r\nA X\r\nB Z\r\nB X\r\nA Z\r\nA X\r\nA Z\r\nC Y\r\nB Y\r\nC Y\r\nB X\r\nA Z\r\nA Z\r\nA Z\r\nC Y\r\nA Z" +
-                    "\r\nA X\r\nB Z\r\nC X\r\nA X\r\nC Z\r\nC X\r\nC Y\r\nA Z\r\nA X\r\nA Z\r\nC Z\r\nA Z\r\nA Z\r\nA Y\r\nC Z\r\nA X\r\nA X\r\nB Z\r\nA Z\r\nC Z\r\nA Z\r\nA X\r\nA Z\r\nA Z\r\nA Z\r\nA Z\r\nA Z\r\nA Z\r\nA Z\r\nA Z\r\nC X\r\nA X\r\nA X" +
-                    "\r\nA X\r\nB Y\r\nB X\r\nA X\r\nA Z\r\nA Z\r\nA X\r\nA Z\r\nA X\r\nA X\r\nA Z\r\nB X\r\nA Z\r\nC Z\r\nA Z\r\nC Z\r\nA Z\r\nA Z\r\nC Z\r\nA X\r\nC Z\r\nA X\r\nC X\r\nA Z\r\nA Z\r\nB Z\r\nA Y\r\nB Z\r\nA X\r\nB Z\r\nA Z\r\nA X\r\nA Z" +
-                    "\r\nA Z\r\nA X\r\nA Z\r\nB Z\r\nC X\r\nA Z\r\nA X\r\nB Z\r\nC Y\r\nB Z\r\nC X\r\nA Z\r\nA Z\r\nC X\r\nB X\r\nC Z\r\nA Z\r\nA X\r\nA Z\r\nC X\r\nA Z\r\nC Z\r\nC Z\r\nB Z\r\nB Z\r\nA Z\r\nC X\r\nA X\r\nB Y\r\nA Y\r\nA Z\r\nC X\r\nB X" +
-                    "\r\nA Z\r\nA Z\r\nB Y\r\nA Z\r\nA Z\r\nC Z\r\nA Z\r\nA X\r\nA Z\r\nB X\r\nC Z\r\nB X\r\nA Z\r\nB Z\r\nC Y\r\nA X\r\nA X\r\nA Z\r\nA Z\r\nA Z\r\nC Y\r\nA X\r\nA Z\r\nA Z\r\nA X\r\nB Z\r\nA Z\r\nC X\r\nC Z\r\nA Z\r\nA X\r\nB Z\r\nA X" +
-                    "\r\nC Y\r\nA X\r\nA Z\r\nA Y\r\nC Z\r\nA Y\r\nA Z\r\nC X\r\nC Y\r\nA Z\r\nC Y\r\nA Z\r\nA X\r\nC Y\r\nA Z\r\nA X\r\nA X\r\nB Z\r\nA X\r\nC X\r\nA X\r\nC X\r\nA X\r\nA Z\r\nA X\r\nA Z\r\nA Z\r\nA X\r\nC X\r\nC Z\r\nA Z\r\nC Z\r\nC X" +
-                    "\r\nA Z\r\nC Y\r\nA X\r\nA Z\r\nA Z\r\nC Y\r\nA X\r\nB X\r\nC Y\r\nB Z\r\nC Y\r\nA X\r\nA X\r\nC Z\r\nA X\r\nA Z\r\nA X\r\nA X\r\nC X\r\nA X\r\nA Z\r\nB X\r\nC Z\r\nA Y\r\nB Y\r\nA Z\r\nA Z\r\nA Z\r\nA Z\r\nB Y\r\nA Y\r\nA Z\r\nB Z" +
-                    "\r\nA Z\r\nA X\r\nC Z\r\nB Y\r\nC Y\r\nA X\r\nA Z\r\nC Z\r\nB Z\r\nA Z\r\nA Z\r\nA Y\r\nC Z\r\nA Z\r\nA Z\r\nC Z\r\nC Z\r\nC Z\r\nA X\r\nB Y\r\nC X\r\nA X\r\nA Z\r\nA Z\r\nB Z\r\nA Y\r\nA X\r\nA Z\r\nB X\r\nA X\r\nA X\r\nA Z\r\nA Y" +
-                    "\r\nA Z\r\nA X\r\nB X\r\nA Z\r\nC X\r\nA Z\r\nA X\r\nC X\r\nB X\r\nB Y\r\nB X\r\nA Z\r\nA Z\r\nA Z\r\nA X\r\nB X\r\nA X\r\nB Z\r\nA Y\r\nB Z\r\nC Z\r\nA X\r\nC Z\r\nC X\r\nA Z\r\nC Y\r\nC Y\r\nA Z\r\nA X\r\nA X\r\nA X\r\nB X\r\nA Z" +
-                    "\r\nA Y\r\nC Y\r\nB X\r\nA X\r\nA X\r\nA X\r\nC Y\r\nA Z\r\nA Y\r\nA X\r\nC Z\r\nA Z\r\nA Z\r\nA Z\r\nC Z\r\nA X\r\nA Z\r\nC Z\r\nB X\r\nC Y\r\nA Z\r\nB Z\r\nB Z\r\nC Z\r\nC Z\r\nA X\r\nA Z\r\nA Z\r\nB X\r\nB X\r\nA Z\r\nA Z\r\nA Y" +
-                    "\r\nC Z\r\nA Z\r\nA X\r\nC Z\r\nA Z\r\nC Z\r\nC Z\r\nA Z\r\nA Z\r\nB Z\r\nA X\r\nB Y\r\nA Z\r\nA X\r\nC Z\r\nA X\r\nB X\r\nA Z\r\nC Y\r\nA Z\r\nC X\r\nC Y\r\nA X\r\nC X\r\nC X\r\nA Z\r\nC Z\r\nC Y\r\nA Z\r\nA Z\r\nA X\r\nA X\r\nC Z" +
-                    "\r\nA Y\r\nA Z\r\nA X\r\nB Z\r\nA X\r\nA Z\r\nA Z\r\nA X\r\nB Z\r\nA X\r\nA Z\r\nC X\r\nA Z\r\nA Z\r\nC X\r\nA Z\r\nA X\r\nA Z\r\nA X\r\nB Z\r\nA Z\r\nA Z\r\nC Y\r\nC Y\r\nC Z\r\nC Z\r\nC Y\r\nA X\r\nA X\r\nA X\r\nA Z\r\nA Z\r\nC Y" +
-                    "\r\nA Z\r\nC Z\r\nA Z\r\nC Z\r\nB Z\r\nB X\r\nA Y\r\nC Y\r\nA X\r\nA Z\r\nA X\r\nA X\r\nA Z\r\nC Z\r\nC Y\r\nC Y\r\nA Y\r\nA X\r\nA Z\r\nA X\r\nC Z\r\nA X\r\nA Z\r\nA Z\r\nC Y\r\nA X\r\nA Z\r\nA Z\r\nA X\r\nB Y\r\nA Z\r\nA Z\r\nA Z" +
-                    "\r\nA Z\r\nC Y\r\nA Z\r\nA X\r\nA X\r\nA Z\r\nA Z\r\nC Y\r\nA Z\r\nA Z\r\nB Z\r\nA Z\r\nA X\r\nA X\r\nA Y\r\nC Z\r\nC Z\r\nA Z\r\nB Z\r\nA Z\r\nA Z\r\nA X\r\nA X\r\nC Z\r\nA Z\r\nA X\r\nA X\r\nA Z\r\nA Z\r\nB Y\r\nA Y\r\nC Y\r\nA X" +
-                    "\r\nA Z\r\nC Z\r\nC Y\r\nA Z\r\nC Y\r\nA X\r\nA X\r\nA X\r\nA Z\r\nC Y\r\nC Y\r\nA Z\r\nB X\r\nC Y\r\nA Z\r\nA X\r\nA Z\r\nA Y\r\nC Y\r\nC Z\r\nB Z\r\nA Z\r\nC Y\r\nA X\r\nC Z\r\nA X\r\nC Y\r\nC Z\r\nA Z\r\nC Y\r\nC Y\r\nA Y\r\nB X" +
-                    "\r\nA Z\r\nC Z\r\nB Z\r\nB Y\r\nA Z\r\nC Y\r\nA X\r\nA Z\r\nA Z\r\nC Y\r\nA Z\r\nC Z\r\nA Z\r\nA Z\r\nA X\r\nA Z\r\nA Z\r\nC Z\r\nA X\r\nA Z\r\nC Z\r\nC Y\r\nA X\r\nA X\r\nC Z\r\nC Y\r\nA Z\r\nC Y\r\nA Z\r\nA X\r\nA X\r\nA Z\r\nA Z" +
-                    "\r\nA X\r\nA Z\r\nC Y\r\nC Z\r\nA Z\r\nB X\r\nC Z\r\nA Z\r\nA Z\r\nA X\r\nB X\r\nA Z\r\nA Y\r\nA X\r\nC Z\r\nB X\r\nA Z\r\nC Y\r\nC Z\r\nC Z\r\nC Z\r\nA Z\r\nA Z\r\nA X\r\nA Z\r\nC Z\r\nC Y\r\nA X\r\nA Z\r\nA Z\r\nA Y\r\nA X\r\nA Z" +
-                    "\r\nA Z\r\nC X\r\nB Z\r\nA X\r\nA Z\r\nA X\r\nC Z\r\nA X\r\nC X\r\nA X\r\nC Y\r\nC Y\r\nA X\r\nA X\r\nA Z\r\nB Z\r\nA Z\r\nA Y\r\nB Z\r\nA X\r\nC X\r\nA X\r\nC X\r\nA X\r\nC X\r\nA Z\r\nA X\r\nA X\r\nA X\r\nC Y\r\nA X\r\nA X\r\nC X" +
-                    "\r\nC Z\r\nA X\r\nB Y\r\nA X\r\nB Z\r\nA Z\r\nA X\r\nC Z\r\nA Z\r\nA X\r\nA Z\r\nA X\r\nC X\r\nC Z\r\nA X\r\nC Z\r\nC Y\r\nC Y\r\nA X\r\nA X\r\nA X\r\nC Z\r\nC Z\r\nA Z\r\nC Z\r\nA Z\r\nB Z\r\nA Y\r\nB Z\r\nA X\r\nA Z\r\nA Z\r\nA Z" +
-                    "\r\nC Z\r\nA Z\r\nA X\r\nA X\r\nB Z\r\nA Z\r\nC Y\r\nC Z\r\nB Z\r\nC Y\r\nC Z\r\nA X\r\nA X\r\nC X\r\nB X\r\nC Z\r\nA Z\r\nA Z\r\nC Z\r\nA X\r\nA Z\r\nA Z\r\nB X\r\nB Z\r\nA Z\r\nA Z\r\nB Z\r\nA Z\r\nA Z\r\nB Z\r\nB Z\r\nC Z\r\nA Z" +
-                    "\r\nC Z\r\nA Z\r\nA Z\r\nC Z\r\nA Z\r\nA Z\r\nB Z\r\nA Z\r\nA X\r\nA X\r\nA X\r\nA Z\r\nC Z\r\nA X\r\nA Z\r\nA X\r\nA Z\r\nB Z\r\nB Z\r\nC Z\r\nA Z\r\nA Y\r\nC X\r\nA X\r\nA Z\r\nA X\r\nA X\r\nC X\r\nC Z\r\nB Y\r\nA X\r\nA X\r\nC Y" +
-                    "\r\nC Y\r\nA X\r\nA Z\r\nA Z\r\nB Z\r\nB Z\r\nA Z\r\nC Z\r\nA Z\r\nC Z\r\nC X\r\nA Z\r\nA X\r\nA Y\r\nA X\r\nA Z\r\nC Z\r\nA X\r\nA Z\r\nA Z\r\nA Z\r\nA X\r\nC X\r\nB Z\r\nA Z\r\nA Y\r\nC X\r\nA Z\r\nA Z\r\nA Z\r\nA X\r\nA Y\r\nA X" +
-                    "\r\nC Y\r\nA Z\r\nC Y\r\nA Z\r\nA Z\r\nC X\r\nA Z\r\nA Y\r\nC Z\r\nA X\r\nA X\r\nA Z\r\nA Y\r\nA Z\r\nA X\r\nC Z\r\nA Z\r\nA Z\r\nB Z\r\nA Z\r\nA Z\r\nC X\r\nB Z\r\nC Y\r\nA X\r\nA Y\r\nB X\r\nA Z\r\nC Z\r\nC X\r\nC Z\r\nA X\r\nA X" +
-                    "\r\nA Z\r\nA Z\r\nA X\r\nA Z\r\nB Z\r\nB Z\r\nA Z\r\nB Y\r\nB Z\r\nA X\r\nA X\r\nC Z\r\nA Z\r\nC Y\r\nB Z\r\nC Z\r\nC Z\r\nA Z\r\nA X\r\nB Z\r\nA X\r\nA X\r\nA Z\r\nA Z\r\nA X\r\nB Z\r\nA Z\r\nC Z\r\nA Z\r\nA Z\r\nB X\r\nC Z\r\nB Z" +
-                    "\r\nC Y\r\nA Z\r\nA X\r\nA X\r\nB X\r\nA X\r\nB Z\r\nC Y\r\nC Y\r\nB Z\r\nC Y\r\nC Y\r\nA X\r\nA Z\r\nA Z\r\nC Y\r\nB Z\r\nA X\r\nA Z\r\nA X\r\nB X\r\nA X\r\nC Y\r\nA X\r\nA X\r\nB Z\r\nA X\r\nB X\r\nA Z\r\nC Y\r\nB Z\r\nA X\r\nA Z" +
-                    "\r\nA X\r\nA X\r\nB X\r\nA X\r\nA X\r\nA X\r\nA Z\r\nA Z\r\nC Y\r\nA Z\r\nB Z\r\nC Z\r\nC Y\r\nC Z\r\nA X\r\nA Z\r\nA X\r\nC Z\r\nC Z\r\nC Z\r\nC Y\r\nA X\r\nB X\r\nB X\r\nC X\r\nC Z\r\nC X\r\nC Z\r\nB Z\r\nA Y\r\nA X\r\nC X\r\nB X" +
-                    "\r\nA X\r\nA X\r\nA Z\r\nA X\r\nA Z\r\nA X\r\nA X\r\nA Z\r\nA Z\r\nC Z\r\nA X\r\nC Y\r\nC Y\r\nC Z\r\nA Z\r\nA X\r\nA Z\r\nA X\r\nA Z\r\nA Y\r\nA Z\r\nA X\r\nA X\r\nA Z\r\nA X\r\nA Y\r\nA Y\r\nC X\r\nA Y\r\nC Y\r\nC X\r\nA Z\r\nC Z" +
-                    "\r\nC Y\r\nC Z\r\nA Z\r\nC X\r\nA X\r\nC Z\r\nA Z\r\nC Y\r\nB Z\r\nA Z\r\nA Z\r\nA Z\r\nC Y\r\nA X\r\nA X\r\nA Z\r\nA Z\r\nA Z\r\nB Z\r\nC Z\r\nA X\r\nC Y\r\nA X\r\nA Z\r\nA X\r\nC X\r\nC Z\r\nA Z\r\nC Y\r\nA Y\r\nA Y\r\nA Z\r\nA X" +
-                    "\r\nA Z\r\nA Y\r\nA X\r\nC Z\r\nA Z\r\nA Z\r\nA X\r\nA X\r\nB Z\r\nB Y\r\nB Y\r\nC X\r\nA Z\r\nA Z\r\nC Z\r\nA X\r\nA Z\r\nC Y\r\nB X\r\nC Y\r\nA Z\r\nA Z\r\nA X\r\nA Z\r\nA X\r\nA X\r\nC Z\r\nA Z\r\nA Z\r\nA X\r\nA X\r\nC Y\r\nA X" +
-                    "\r\nA X\r\nC Y\r\nA Y\r\nC X\r\nA X\r\nC Y\r\nA Y\r\nA Z\r\nB Y\r\nA X\r\nC Z\r\nB X\r\nA X\r\nC Z\r\nA Z\r\nB Z\r\nA Z\r\nA Z\r\nC X\r\nA Z\r\nB Z\r\nC X\r\nA Z\r\nC Y\r\nA Z\r\nC Z\r\nA Z\r\nC X\r\nA X\r\nA Z\r\nA Y\r\nB X\r\nA X" +
-                    "\r\nB X\r\nA Z\r\nA Z\r\nC Y\r\nA Z\r\nC Z\r\nA Z\r\nA Z\r\nA Z\r\nC X\r\nA Z\r\nB X\r\nA X\r\nA Z\r\nC Z\r\nA Z\r\nA X\r\nC Y\r\nA Z\r\nC Y\r\nA Z\r\nA Z\r\nC Z\r\nA X\r\nA Z\r\nA Z\r\nB X\r\nA Z\r\nA X\r\nC Z\r\nB Y\r\nA Z\r\nA X" +
-                    "\r\nC Z\r\nA X\r\nA Z\r\nA Z\r\nA Z\r\nC Z\r\nA Z\r\nA Z\r\nC X\r\nA X\r\nA X\r\nC X\r\nA X\r\nA X\r\nB Z\r\nA Z\r\nA X\r\nB X\r\nA X\r\nA Z\r\nC Y\r\nA Z\r\nB X\r\nC Y\r\nA X\r\nC Z\r\nA Z\r\nB Z\r\nA X\r\nA Z\r\nA Z\r\nC Z\r\nA X" +
-                    "\r\nC Z\r\nA X\r\nC X\r\nA Y\r\nA X\r\nA Z\r\nC X\r\nA X\r\nA X\r\nA X\r\nA X\r\nA Z\r\nA X\r\nB Z\r\nC Z\r\nC Y\r\nB Z\r\nB Z\r\nB X\r\nA Z\r\nA X\r\nB Z\r\nA Z\r\nA X\r\nC Z\r\nA Z\r\nC Y\r\nB Z\r\nC Y\r\nA X\r\nC X\r\nA X\r\nA Z" +
-                    "\r\nC Y\r\nA Z\r\nA X\r\nA Y\r\nC Y\r\nC Y\r\nA Z\r\nA Z\r\nC Y\r\nA Z\r\nA Z\r\nA X\r\nC Y\r\nB Y\r\nA X\r\nA X\r\nA X\r\nC Y\r\nB X\r\nA Z\r\nA Y\r\nA Z\r\nA Z\r\nA X\r\nC Z\r\nA Z\r\nA Z\r\nC X\r\nA Z\r\nB Z\r\nB X\r\nA X\r\nC Z" +
-                    "\r\nA X\r\nC Y\r\nA Z\r\nC Z\r\nC Y\r\nC X\r\nC Y\r\nA Z\r\nA X\r\nA Z\r\nA Z\r\nA Z\r\nB Z\r\nA Z\r\nC Z\r\nA Z\r\nC Z\r\nB Z\r\nC Z\r\nC Z\r\nA Z\r\nA Z\r\nB X\r\nA Z\r\nA X\r\nA Z\r\nA X\r\nA Y\r\nA Z\r\nB Z\r\nC X\r\nA Z\r\nA Z" +
-                    "\r\nB X\r\nA X\r\nC X\r\nC Z\r\nA X\r\nA Z\r\nA X\r\nC Y\r\nC Z\r\nA Z\r\nC Y\r\nA X\r\nA Z\r\nA Z\r\nB Z\r\nC Y\r\nA Z\r\nA Z\r\nC Z\r\nA X\r\nC X\r\nA Z\r\nA Z\r\nA Y\r\nC Z\r\nC Z\r\nA Z\r\nA X\r\nB Z\r\nA X\r\nA X\r\nA X\r\nA X" +
-                    "\r\nA Z\r\nA Z\r\nA X\r\nA X\r\nC Z\r\nC Y\r\nC Y\r\nC Y\r\nA Z\r\nC X\r\nB Z\r\nC Y\r\nC Z\r\nA X\r\nA X\r\nA Z\r\nC Z\r\nC Z\r\nA Y\r\nC Y\r\nB X\r\nC Y\r\nA X\r\nA X\r\nA Y\r\nA X\r\nA Z\r\nA Z\r\nA X\r\nA Z\r\nA Z\r\nA Z\r\nA X" +
-                    "\r\nA Z\r\nB Z\r\nA X\r\nA X\r\nA X\r\nC Z\r\nC X\r\nA Z\r\nC Y\r\nC Z\r\nA X\r\nA Z\r\nA Z\r\nA X\r\nA Z\r\nA X\r\nB Z\r\nA Z\r\nA Z\r\nA Z\r\nC Y\r\nC Z\r\nB Z\r\nA Z\r\nB Z\r\nA X\r\nA X\r\nA X\r\nC Y\r\nA Z\r\nA Z\r\nA Z\r\nC X" +
-                    "\r\nA X\r\nA X\r\nA Z\r\nA Z\r\nA Z\r\nA Z\r\nB Z\r\nA X\r\nA Z\r\nA X\r\nC Z\r\nA Z\r\nA Z\r\nA Z\r\nB Z\r\nA Y\r\nA Z\r\nC Z\r\nB Z\r\nC Y\r\nA Z\r\nA X\r\nC Y\r\nA X\r\nA X\r\nA Z\r\nA Z\r\nA X\r\nB Z\r\nB X\r\nC Z\r\nC Z\r\nA Y" +
-                    "\r\nA Z\r\nA X\r\nA Z\r\nA Z\r\nA Z\r\nA Z\r\nA Z\r\nB Z\r\nA Z\r\nB X\r\nA Z\r\nA Z\r\nC Z\r\nB Z\r\nA Z\r\nC X\r\nB Z\r\nC X\r\nB Z\r\nA Z\r\nA Z\r\nA Z\r\nA Z\r\nA X\r\nB Z\r\nA X\r\nB Z\r\nC Y\r\nA Z\r\nA Z\r\nC X\r\nA X\r\nA Z" +
-                    "\r\nA Y\r\nA Z\r\nC Y\r\nC X\r\nC Z\r\nA X\r\nA Z\r\nC Z\r\nA Z\r\nA X\r\nA Z\r\nB Z\r\nA X\r\nA Z\r\nB Z\r\nC Y\r\nA Z\r\nC Y\r\nA Z\r\nC Y\r\nB X\r\nC Y\r\nA Z\r\nB Z\r\nA X\r\nB Z\r\nB Z\r\nC X\r\nA Z\r\nC Z\r\nA Z\r\nC Z\r\nA Z" +
-                    "\r\nC Z\r\nB Z\r\nC Y\r\nC Z\r\nA Z\r\nC Y\r\nA Z\r\nC X\r\nB Y\r\nB Y\r\nC X\r\nC Y\r\nA Z\r\nC Z\r\nA Z\r\nC X\r\nA Z\r\nA Z\r\nC Y\r\nA Z\r\nA Z\r\nC X\r\nA Y\r\nA X\r\nA X\r\nB Z\r\nA Z\r\nC Z\r\nA Z\r\nB Z\r\nC Y\r\nC Z\r\nA Z" +
-                    "\r\nC Y\r\nB X\r\nC Z\r\nA X\r\nC X\r\nC Y\r\nC Y\r\nC Y\r\nA Z\r\nA Z\r\nB Y\r\nC Y\r\nA Z\r\nA X\r\nA Z\r\nA X\r\nA Z\r\nC X\r\nC Z\r\nA X\r\nC Z\r\nB X\r\nA X\r\nC Z\r\nA Z\r\nC X\r\nA Y\r\nA Z\r\nA X\r\nA Z\r\nC Z\r\nB Z\r\nB Z" +
-                    "\r\nA Z\r\nC Y\r\nA Z\r\nC Z\r\nC Y\r\nC Z\r\nA Z\r\nA Z\r\nB X\r\nC X\r\nC Z\r\nA X\r\nA Z\r\nA Y\r\nC Y\r\nA X\r\nA Z\r\nC Y\r\nA Z\r\nB X\r\nA Z\r\nA Z\r\nA Z\r\nA Z\r\nC X\r\nA X\r\nA Z\r\nA Y\r\nA X\r\nB Y\r\nA X\r\nA X\r\nA X" +
-                    "\r\nA X\r\nB Z\r\nA X\r\nC Y\r\nC X\r\nA X\r\nA Z\r\nA X\r\nA Z\r\nA Z\r\nA Z\r\nA Z\r\nA X\r\nA Z\r\nC X\r\nC Z\r\nC Z\r\nA X\r\nB Y\r\nA X\r\nC Y\r\nA X\r\nC Z\r\nA X\r\nA Z\r\nA Z\r\nA Z\r\nA Z\r\nC X\r\nA X\r\nC Y\r\nA Z\r\nA Z" +
-                    "\r\nC Y\r\nA Z\r\nA X\r\nA Z\r\nA X\r\nA Z\r\nB Y\r\nC Y\r\nB Y\r\nC Y\r\nA Y\r\nA Z\r\nC X\r\nB X\r\nA X\r\nA Y\r\nC Z\r\nA X\r\nB Z\r\nA X\r\nA X\r\nA Y\r\nA X\r\nA Z\r\nA Z\r\nC Z\r\nC X\r\nA Z\r\nC Y\r\nA Z\r\nA Z\r\nC X\r\nA Y" +
-                    "\r\nA Z\r\nA X\r\nA Z\r\nA Z\r\nC X\r\nA Z\r\nA Z\r\nA Z\r\nC Y\r\nA X\r\nA X\r\nA X\r\nC Z\r\nA Z\r\nC Y\r\nA X\r\nA X\r\nC Y\r\nC X\r\nC Y\r\nA Y\r\nC X\r\nA Z\r\nA Z\r\nA Y\r\nC X\r\nA Z\r\nA Z\r\nA Z\r\nC Y\r\nC X\r\nA Z\r\nB Z" +
-                    "\r\nA Z\r\nA X\r\nC Y\r\nA X\r\nC Y\r\nC Y\r\nA X\r\nC Y\r\nA X\r\nC Y\r\nB Z\r\nA Z\r\nA X\r\nA Z\r\nA X\r\nA X\r\nA Z\r\nA X\r\nA X\r\nC Z\r\nA Z\r\nB Y\r\nC X\r\nB X\r\nB X\r\nA Z\r\nA Y\r\nB Y\r\nA Z\r\nA X\r\nA X\r\nC Y\r\nC X" +
-                    "\r\nB Z\r\nA Z\r\nC Y\r\nC X\r\nC Y\r\nA Y\r\nA Z\r\nC X\r\nA X\r\nA X\r\nA Z\r\nA Z\r\nB Z\r\nC X\r\nA Z\r\nB Z\r\nA X\r\nB Y\r\nC X\r\nA X\r\nA Y\r\nC X\r\nA X\r\nC Y\r\nA Z\r\nA Z\r\nA X\r\nA X\r\nC Z\r\nC Z\r\nB Z\r\nA X\r\nB Z" +
-                    "\r\nB Y\r\nA Z\r\nA Z\r\nC Y\r\nA Z\r\nB Y\r\nA Z\r\nA X\r\nC Z\r\nC Z\r\nA X\r\nA X\r\nA X\r\nA Z\r\nA Z\r\nC Y\r\nA X\r\nA X\r\nA Z\r\nA X\r\nC X\r\nA Z\r\nA X\r\nB Z\r\nB X\r\nA X\r\nA X\r\nA Z\r\nB Z\r\nA X\r\nA Z\r\nC Y\r\nC Y" +
-                    "\r\nB Z\r\nC Z\r\nA X\r\nB X\r\nB X\r\nA Z\r\nA X\r\nA Z\r\nC Y\r\nA X\r\nA X\r\nB Y\r\nC Y\r\nA X\r\nA X\r\nC Y\r\nA Z\r\nA Z\r\nC Z\r\nA Z\r\nB Z\r\nA Y\r\nA Z\r\nC Y\r\nB Y\r\nA X\r\nC X\r\nA X\r\nC Z\r\nA Z\r\nA X\r\nA Z\r\nA Z" +
-                    "\r\nA X\r\nB Z\r\nC Z\r\nA Z\r\nA X\r\nC X\r\nA X\r\nC Y\r\nB Z\r\nB X\r\nC Z\r\nC X\r\nA X\r\nA X\r\nA Z\r\nA X\r\nC Y\r\nB Z\r\nA Z\r\nC Z\r\nA Z\r\nA Z\r\nA X\r\nB X\r\nA X\r\nA Z\r\nA X\r\nA X\r\nA Z\r\nA Z\r\nA Y\r\nA Z\r\nC Z" +
-                    "\r\nB Z\r\nA X\r\nA X\r\nA X\r\nA Z\r\nB Z\r\nA Z\r\nA Z\r\nC Z\r\nC Y\r\nC Y\r\nA Z\r\nA X\r\nA Z\r\nC Z\r\nA X\r\nA X\r\nA Z\r\nA Z\r\nC X\r\nB Y\r\nA X\r\nB Z\r\nB Z\r\nA Z\r\nA Z\r\nC Z\r\nC Z\r\nA X\r\nA X\r\nA Z\r\nC Z\r\nA Z" +
-                    "\r\nC Z\r\nB X\r\nA X\r\nA Z\r\nA Z\r\nC Z\r\nA X\r\nA Z\r\nB Y\r\nB X\r\nA X\r\nC Y\r\nC X\r\nC Y\r\nB X\r\nA X\r\nC Y\r\nA Z\r\nB Y\r\nA Y\r\nA X\r\nC Y\r\nA Z\r\nA Z\r\nA Z\r\nA Z\r\nA Z\r\nC Z\r\nA Z\r\nA Z\r\nA Z\r\nC X\r\nB X" +
-                    "\r\nC Z\r\nA X\r\nB X\r\nA X\r\nC Y\r\nA X\r\nC X\r\nA X\r\nA Z\r\nA Z\r\nB X\r\nA X\r\nA Z\r\nA X\r\nC Z\r\nA Z\r\nA Z\r\nA X\r\nC Z\r\nA Z\r\nC X\r\nA Z\r\nA Z\r\nA Z\r\nA Z\r\nB Z\r\nA X\r\nA X\r\nC Y\r\nA Z\r\nA Z\r\nB Z\r\nA X" +
-                    "\r\nA Z\r\nA Y\r\nA Z\r\nC X\r\nB Z\r\nA Z\r\nA X\r\nB Y\r\nA Z\r\nA X\r\nC X\r\nC X\r\nA X\r\nA Z\r\nA X\r\nA Z\r\nB Z\r\nB Y\r\nA Y\r\nA Z\r\nC Y\r\nB Z\r\nA Z\r\nC X\r\nC Y\r\nC Z\r\nC X\r\nA X\r\nA Z\r\nA X\r\nA X\r\nA Z\r\nA X" +
-                    "\r\nA X\r\nA X\r\nA Z\r\nC Z\r\nC Y\r\nA Z\r\nA X\r\nC X\r\nB Z\r\nC Z\r\nC Y\r\nC Y\r\nA Z\r\nA X\r\nA Z\r\nA Z\r\nA Z\r\nA X\r\nA Z\r\nA Z\r\nA X\r\nC Z\r\nA X\r\nA X\r\nA Z\r\nC X\r\nB Y\r\nA X\r\nC Z\r\nA X\r\nC X\r\nA Z\r\nA X" +
-                    "\r\nA Y\r\nC Z\r\nA X\r\nA Z\r\nC X\r\nB X\r\nA Z\r\nA Z\r\nA X\r\nA X\r\nA Z\r\nC Y\r\nC Z\r\nA X\r\nA Z\r\nC Z\r\nC X\r\nA X\r\nA Z\r\nA X\r\nA X\r\nB X\r\nC Z\r\nB Z\r\nA Z\r\nA X\r\nA X\r\nB Y\r\nA Z\r\nA X\r\nA X\r\nA Z\r\nA Z" +
-                    "\r\nA Z\r\nA X\r\nC Y\r\nA Z\r\nC Y\r\nA Z\r\nA Z\r\nA X\r\nC Z\r\nA Z\r\nB X\r\nA X\r\nC Z\r\nA X\r\nA Y\r\nB X\r\nC X\r\nA X\r\nA X\r\nA Z\r\nA X\r\nA X\r\nA X\r\nC Y\r\nA Y\r\nA Z\r\nB Z\r\nB Z\r\nB Z\r\nA Z\r\nA Z\r\nA Z\r\nA X" +
-                    "\r\nB X\r\nC Y\r\nA X\r\nA Z\r\nC Z\r\nB Y\r\nA X\r\nA Z\r\nA Z\r\nA X\r\nA X\r\nB Z\r\nA X\r\nC Y\r\nA Z\r\nA X\r\nA X\r\nA Z\r\nA Z\r\nA Z\r\nA Z\r\nA Z\r\nA X\r\nA Z\r\nA X\r\nA X\r\nC Z\r\nA X\r\nC Z\r\nA Z\r\nC Y\r\nA X\r\nA Z" +
-                    "\r\nC Z\r\nA Z\r\nA Z\r\nA X\r\nA X\r\nA Z\r\nA X\r\nA Z\r\nB Z\r\nA X\r\nA X\r\nC X\r\nA Z\r\nA X\r\nA Z\r\nC Y\r\nC Y\r\nC Y\r\nC Y\r\nC Z\r\nA Z\r\nB X\r\nC Z\r\nA X\r\nA Z\r\nC Y\r\nA X\r\nA Z\r\nB X\r\nA Z\r\nC X\r\nC Z\r\nC X" +
-                    "\r\nC X\r\nA Z\r\nA Z\r\nB X\r\nA Z\r\nA Z\r\nA Z\r\nB Z\r\nA Z\r\nC Z\r\nA X\r\nA X\r\nA Z\r\nA X\r\nA Z\r\nC Z\r\nC Z\r\nA Z\r\nC Z\r\nC X\r\nA Z\r\nA X\r\nB Z\r\nA X\r\nB Y\r\nC X\r\nA X\r\nA Y\r\nA Z\r\nA Z\r\nA X\r\nA X\r\nA Z" +
-                    "\r\nA X\r\nA Z\r\nA X\r\nA Z\r\nA X\r\nA Y\r\nA X\r\nC Z\r\nA Z\r\nA Z\r\nA X\r\nA X\r\nA Z\r\nA X\r\nC Y\r\nC Z\r\nA Z\r\nA Y\r\nA Z\r\nA X\r\nA Z\r\nC X\r\nB X\r\nA Z\r\nC Z\r\nB Y\r\nA Z\r\nA Z\r\nC Y\r\nA X\r\nA Z\r\nA Z\r\nC Z" +
-                    "\r\nC Y\r\nA Z\r\nB Y\r\nA X\r\nC Y\r\nA X\r\nA X\r\nA Z\r\nC Z\r\nA Z\r\nA Z\r\nA X\r\nC Z\r\nA X\r\nC Y\r\nC Y\r\nA X\r\nB X\r\nC X\r\nA Y\r\nA X\r\nA Z\r\nB X\r\nA X\r\nB Z\r\nA Z\r\nA X\r\nC X\r\nA X\r\nB X\r\nA X\r\nA Z\r\nA X" +
-                    "\r\nC Y\r\nA Z\r\nC Z\r\nC Y\r\nA X\r\nB X\r\nC Y\r\nC X\r\nA X\r\nA Z\r\nA X\r\nA Z\r\nA X\r\nA X\r\nA Z\r\nA Z\r\nA X\r\nA Z\r\nA Y\r\nA X\r\nA X\r\nA Y\r\nA Z\r\nA Z\r\nC Z\r\nA X\r\nA Z\r\nA X\r\nA X\r\nB X\r\nA X\r\nB Y\r\nC Y" +
-                    "\r\nA Z\r\nB Z\r\nA Z\r\nB Y\r\nA Z\r\nC Y\r\nA Z\r\nA X\r\nA X\r\nA Z\r\nC X\r\nC Z\r\nB X\r\nA X\r\nA Z\r\nA X\r\nA Z\r\nA Z\r\nB X\r\nA Z\r\nA X\r\nC Z\r\nB Y\r\nC Y\r\nC X\r\nA X\r\nA Z\r\nA X\r\nC Y\r\nA Z\r\nC Z\r\nA X\r\nA X" +
-                    "\r\nA X\r\nA Z\r\nA Z\r\nA Z\r\nB X\r\nC X\r\nA Y\r\nB Z\r\nA X\r\nA Z\r\nA Z\r\nC X\r\nC Y\r\nA X\r\nA Z\r\nC Y\r\nA X\r\nA Z\r\nA X\r\nA Z\r\nA X\r\nA X\r\nB Z\r\nA X\r\nC X\r\nA X\r\nA X\r\nA X\r\nA Z\r\nA Z\r\nA X\r\nA Z\r\nC Y" +
-                    "\r\nC Z\r\nB Z\r\nB X\r\nA Z\r\nA X\r\nC X\r\nC Y\r\nA X\r\nB Z\r\nB Z\r\nA Z\r\nB Z\r\nC Y\r\nA X\r\nA X\r\nA X\r\nC Y\r\nA Z\r\nA X\r\nA Z\r\nA Z\r\nA Z\r\nA X\r\nA Z\r\nA X\r\nA Z\r\nC Y\r\nA X\r\nC X\r\nC Y\r\nC Y\r\nC X\r\nA X" +
-                    "\r\nC Y\r\nA Z\r\nC Y\r\nB Z\r\nB Z\r\nC Z\r\nA X\r\nB X\r\nC X\r\nA Z\r\nA Y\r\nA Z\r\nB Z\r\nA Z\r\nB Z\r\nA X\r\nA X\r\nA Z\r\nA Z\r\nA Y\r\nA Z\r\nA X\r\nA Y\r\nA Z\r\nA Z\r\nA Z\r\nA Z\r\nB X\r\nA Z\r\nA Z\r\nA Z\r\nA Z\r\nC Y" +
-                    "\r\nB Y\r\nC X\r\nA Z\r\nB Z\r\nB X\r\nA X\r\nC Z\r\nA Z\r\nC Z\r\nA Z\r\nA X\r\nA X\r\nA X\r\nA X\r\nA X\r\nA Z\r\nC Y\r\nA X\r\nC X\r\nA Y\r\nC X\r\nC X\r\nA X\r\nA Z\r\nA X\r\nC Z\r\nA X\r\nC Y\r\nB Z\r\nC Y\r\nC Z\r\nB X\r\nA Z" +
-                    "\r\nC Y\r\nA Z\r\nC Y\r\nA X\r\nA X\r\nA X\r\nA Z\r\nA Z\r\nA Z\r\nA Z\r\nC Z\r\nC Y\r\nA X\r\nC Y\r\nB Y\r\nA X\r\nA X\r\nA Z\r\nC Y\r\nC Z\r\nA X\r\nA X\r\nA Z\r\nA Z\r\nA X\r\nA X\r\nA Z";
-            string[] outcomes = rockPaperScissors.Split("\r\n", StringSplitOptions.None);
+            string[] outcomes = File.ReadAllLines("C:\\Users\\rmaye\\source\\repos\\Calorie Counter\\Calorie Counter\\Day2.txt");
             int totalPoints = 0;
             foreach(string outcome in outcomes)
             {
-
-                {
                     int roundOutcome = 0, shapeSelected = 1;                                                                  //First Char is Enemy Move, Second is Round Outcome
                     switch (outcome[0])
                     {
@@ -135,8 +57,13 @@
                             }
                             break;
                     }
-                    totalPoints += (roundOutcome + shapeSelected);
-                    /*int roundOutcome = 0, shapeSelected = 1;                                                                  //First Char is Enemy Move, Second is Player Move
+                    totalPoints += (roundOutcome + shapeSelected);                                 
+            }
+            Console.WriteLine($"You scored {totalPoints} total points in the championship using Method 2!");
+            totalPoints = 0;
+            foreach (var outcome in outcomes)
+            {
+                int roundOutcome = 0, shapeSelected = 1;                                                                  //First Char is Enemy Move, Second is Player Move
                     switch(outcome[0])
                     {
                         case 'A':                                       //Enemy Choice: Rock
@@ -185,10 +112,9 @@
                             }
                             break;
                     }
-                    totalPoints += (roundOutcome+shapeSelected);*/
-                }                
+                    totalPoints += (roundOutcome+shapeSelected);
             }
-            Console.WriteLine($"You scored {totalPoints} total points in the championship!");
+            Console.WriteLine($"You scored {totalPoints} total points in the championship using Method 1!");
             Console.ReadKey();
         }
     }

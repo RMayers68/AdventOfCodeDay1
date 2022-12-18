@@ -41,7 +41,7 @@
                         monkeys[j].Items[k] = monkeys[j].Inspection(k);
                         // Worry Drop (Only Part 1)
                         //monkeys[j].Items[k] /= 3;
-                        monkeys[j].Items[k] %= 9699690; //Got a hint about LCM for this line :)  MY COMMENT IS THIS IS BULLS###! Haha
+                        monkeys[j].Items[k] %= 9699690; //Got a hint about LCM for this line :)  MY COMMENT IS THIS IS BULLS###! Haha Looking at it now, all of the monkey's test divisibles multiplied together (facepalm)
                         // Test and Throw Item
                         if (monkeys[j].TestItem(k))
                             monkeys[monkeys[j].True].Items.Add(monkeys[j].Items[k]);
