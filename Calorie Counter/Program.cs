@@ -12,8 +12,9 @@ AdventofCodeDay9.RopeBridge();
 AdventofCodeDay10.CathodeRayTube();
 AdventofCodeDay11.MonkeyInTheMiddle();
 AdventofCodeDay12.HillClimbingAlgorithm();
-AdventofCodeDay13.DistressSignal();*/
-AdventofCodeDay14.RegalithReservoir();
+AdventofCodeDay13.DistressSignal();
+AdventofCodeDay14.RegalithReservoir();*/
+AdventofCodeDay15.BeaconExlusionZone();
 
 
 
