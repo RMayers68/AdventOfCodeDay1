@@ -5,8 +5,6 @@
         public static void CalorieCounter()
         {
             string day1Input = File.ReadAllText("C:\\Users\\rmaye\\source\\repos\\Calorie Counter\\Calorie Counter\\Day1.txt");
-            Console.Write(day1Input);
-            Console.ReadKey();
             string[] elves = day1Input.Split("\r\n\r\n", StringSplitOptions.None);
             int firstElf = 0, secondElf = 0, thirdElf = 0;
             foreach (var elf in elves)

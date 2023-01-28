@@ -1,6 +1,6 @@
 ﻿using Calorie_Counter;
 
-/*AdventOfCodeDay1.CalorieCounter();
+AdventOfCodeDay1.CalorieCounter();
 AdventOfCodeDay2.RPSChampionship();
 AdventOfCodeDay3.RucksackSorting();
 AdventofCodeDay4.SectionSearch();
@@ -13,8 +13,7 @@ AdventofCodeDay10.CathodeRayTube();
 AdventofCodeDay11.MonkeyInTheMiddle();
 AdventofCodeDay12.HillClimbingAlgorithm();
 AdventofCodeDay13.DistressSignal();
-AdventofCodeDay14.RegalithReservoir();*/
-AdventofCodeDay15.BeaconExlusionZone();
+AdventofCodeDay14.RegalithReservoir();
 
 
 
